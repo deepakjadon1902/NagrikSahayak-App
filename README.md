@@ -4,83 +4,77 @@ NagrikSahayak is an all-in-one government services platform designed for the cit
 
 ##Technologies Used
 
-React (v18.3.1) with TypeScript: Ensures a robust and scalable front-end framework.
-Vite: Powers efficient build tooling and rapid development.
-Tailwind CSS: Offers modern, responsive, and utility-first styling.
-React Router DOM: Facilitates smooth and intuitive navigation.
-Lucide React: Provides high-quality, accessible icons.
-ESLint: Maintains clean and consistent code standards with a modern configuration.
+1.React (v18.3.1) with TypeScript: Ensures a robust and scalable front-end framework.
+
+2.Vite: Powers efficient build tooling and rapid development.
+
+3.Tailwind CSS: Offers modern, responsive, and utility-first styling.
+
+4.React Router DOM: Facilitates smooth and intuitive navigation.
+
+5.Lucide React: Provides high-quality, accessible icons.
+
+6.ESLint: Maintains clean and consistent code standards with a modern configuration.
 
 ##Key Features
 
 Service Categories
-Document Services: Access certificates, licenses, and essential documentation.
-Business Services: Apply for registrations and permits.
-Education Services: Find information on scholarships and admissions.
-Healthcare Services: Browse health insurance plans and hospital directories.
-Transport Services: Manage vehicle registrations and licenses.
-Housing Services: Explore property registration and housing schemes.
-Social Welfare Services: Apply for pensions, benefits, and other welfare programs.
-Revenue Services: Pay taxes and access land records.
 
-##User Interface
+1.Document Services: Access certificates, licenses, and essential documentation.
 
-Fully responsive design optimized for all devices, including smartphones, tablets, and desktops.
-Interactive service cards that simplify browsing and access.
-Advanced dynamic search functionality for quick service discovery.
-A sliding side navigation menu for streamlined usability.
-Clean, accessible UI components adhering to usability standards.
+2.Business Services: Apply for registrations and permits.
 
-##Navigation & Accessibility
+3.Education Services: Find information on scholarships and admissions.
 
-Intuitive navigation for effortless service exploration.
-Built-in search functionality to locate services instantly.
-Direct external links to official government portals for authenticity.
-Fully mobile-friendly interface for users on the go.
+4.Healthcare Services: Browse health insurance plans and hospital directories.
 
-##Additional Features
+5.Transport Services: Manage vehicle registrations and licenses.
 
-Real-time search filtering for personalized results.
-Comprehensive descriptions for each service.
-Detailed contact and support information for user assistance.
+6.Housing Services: Explore property registration and housing schemes.
+
+7.Social Welfare Services: Apply for pensions, benefits, and other welfare programs.
+
+8.Revenue Services: Pay taxes and access land records.
+
+
 
 ##Installation and Setup
 
-Clone the repository:
+1.Clone the repository:
+
 git clone https://github.com/deepakjadon1902/NagrikSahayak-App.git
 
-Navigate to the project directory:
+2. Navigate to the project directory:
+
 cd NagrikSahayak
 
-Install dependencies:
+3. Install dependencies:
+
 npm install
 
-Start the development server:
+4. Start the development server:
+   
 npm run dev
 
-Open your browser and navigate to:
+5. Open your browser and navigate to:
+   
 http://localhost:5173
+
 
 ##Contributing
 
 We welcome contributions to enhance NagrikSahayak! To contribute:
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-git checkout -b feature-name
-Commit your changes:
-git commit -m "Add a brief description of your changes"
-Push to your branch:
-git push origin feature-name
-Submit a pull request for review.
 
 ##License
 
 This project is licensed under the MIT License.
 
 ##Contact
+
 For inquiries or support, reach out via:
 
 LinkedIn: https://www.linkedin.com/in/deepak-jadon-612487272
+
 GitHub: https://github.com/deepakjadon1902
 
