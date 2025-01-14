@@ -23,6 +23,12 @@ export function WelfareServices() {
       url: 'https://swavlambancard.gov.in/'
     },
     {
+      title: 'Chief Minister Agricultural Accident Welfare',
+      description: ' This scheme, farmers or their families receive compensation in the event of accidents leading to disability, injury, or death',
+      icon: <Heart className="h-5 w-5" />,
+      url: 'https://bor.up.nic.in/krishakaccidentscheme/Login/login_type.aspx'
+    },
+    {
       title: 'Employment Registration',
       description: 'Register for employment assistance',
       icon: <UserCheck className="h-5 w-5" />,

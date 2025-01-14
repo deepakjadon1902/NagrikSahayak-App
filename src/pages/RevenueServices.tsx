@@ -22,12 +22,12 @@ export function RevenueServices() {
       icon: <FileText className="h-5 w-5" />,
       url: 'https://upbhulekh.gov.in/'
     },
-    {
-      title: 'Tax Calculator',
-      description: 'Calculate various government taxes',
-      icon: <Calculator className="h-5 w-5" />,
-      url: 'https://tin.up.nic.in/'
-    }
+    // {
+    //   title: 'Tax Calculator',
+    //   description: 'Calculate various government taxes',
+    //   icon: <Calculator className="h-5 w-5" />,
+    //   url: 'https://tin.up.nic.in/'
+    // }
   ];
 
   return (
