@@ -28,7 +28,21 @@ export function BusinessServices() {
       description: 'Register for Goods and Services Tax',
       icon: <FileCheck className="h-5 w-5" />,
       url: 'https://www.gst.gov.in/'
+    },
+    {
+      title: 'E-Tender Uttar Pradesh',
+      description: 'Participate in government e-tendering process',
+      icon: <FileCheck className="h-5 w-5" />,
+      url: 'http://etender.up.nic.in/'
+    },
+    {
+      title: 'Sewayojan Portal',
+      description: 'Explore government job opportunities in Uttar Pradesh',
+      icon: <Briefcase className="h-5 w-5" />,
+      url: 'http://sewayojan.up.nic.in/'
     }
+    
+    
   ];
 
   return (

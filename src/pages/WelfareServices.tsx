@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Heart, Wallet, UserCheck } from 'lucide-react';
+import { Users, Heart, Wallet, UserCheck, Shield, Gift, Home, Leaf, Hammer, Milk, ShieldCheck,  } from 'lucide-react';
 import { ServiceLink } from '../components/ServiceLink';
 
 export function WelfareServices() {
@@ -8,7 +8,7 @@ export function WelfareServices() {
       title: 'Pension Schemes',
       description: 'Apply for various pension schemes',
       icon: <Wallet className="h-5 w-5" />,
-      url: 'https://sspy-up.gov.in/'
+      url: 'https://epension.up.nic.in/homePage'
     },
     {
       title: 'Social Security',
@@ -16,6 +16,13 @@ export function WelfareServices() {
       icon: <Users className="h-5 w-5" />,
       url: 'https://uplabour.gov.in/'
     },
+    {
+      title: 'Old Age Home Application',
+      description: 'Apply for old age home services online',
+      icon: <Home className="h-5 w-5" />,
+      url: 'https://oah.apphost.co.in/Home/OnlineApplication'
+    },
+    
     {
       title: 'Disability Support',
       description: 'Services for persons with disabilities',
@@ -33,7 +40,70 @@ export function WelfareServices() {
       description: 'Register for employment assistance',
       icon: <UserCheck className="h-5 w-5" />,
       url: 'https://sewayojan.up.nic.in/'
+    },
+    {
+      title: 'C.M. Samagra Samajik Suraksha Yojana',
+      description: 'Access application forms for social security schemes',
+      icon: <Users className="h-5 w-5" />,
+      url: 'https://cmsvy.upsdc.gov.in/applicationforms.php'
+    },
+    {
+      title: 'Shadi Anudan Yojana',
+      description: 'Apply for marriage grant scheme online',
+      icon: <Gift className="h-5 w-5" />,
+      url: 'https://shadianudan.upsdc.gov.in/'
+    },
+    {
+      title: 'UP State Social Security Board',
+      description: 'Access social security schemes and services in Uttar Pradesh',
+      icon: <Shield className="h-5 w-5" />,
+      url: 'https://upssb.in/'
+    },
+    {
+      title: 'UP Agriculture Department',
+      description: 'Access agricultural schemes and services in Uttar Pradesh',
+      icon: <Leaf className="h-5 w-5" />,
+      url: 'https://agriculture.up.gov.in/'
+    },
+    {
+      title: 'UP Public Works Department',
+      description: 'Access information on infrastructure and road development projects',
+      icon: <Hammer className="h-5 w-5" />,
+      url: 'https://uppwd.gov.in/'
+    },
+    {
+      title: 'UP Dairy Development Department',
+      description: 'Explore dairy farming schemes and services in Uttar Pradesh',
+      icon: <Milk className="h-5 w-5" />,
+      url: 'https://updairydevelopment.gov.in/'
+    },
+    {
+      title: 'AH Goshala Registration Portal',
+      description: 'Register and manage information related to animal shelters in Uttar Pradesh',
+      icon: <Leaf className="h-5 w-5" />,
+      url: 'https://ahgoshalareg.up.gov.in/eDist/Home.aspx'
+    },
+    {
+      title: 'CCTNS UP Citizen Portal',
+      description: 'Access citizen services and reports from the UP Police',
+      icon: <ShieldCheck className="h-5 w-5" />,
+      url: 'https://cctnsup.gov.in/citizenportal/login.aspx'
+    },
+    {
+      title: 'UP Dharmarth Karya Portal',
+      description: 'Book religious services and related activities in Uttar Pradesh',
+      icon: <Users className="h-5 w-5" />,
+      url: 'https://updharmarthkarya.in/booking/HomeHI'
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
   ];
 
   return (

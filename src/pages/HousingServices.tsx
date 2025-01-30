@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, Building, FileText, MapPin } from 'lucide-react';
+import { Home, Building, FileText, MapPin, Droplet, CheckCircle, Sprout,  } from 'lucide-react';
 import { ServiceLink } from '../components/ServiceLink';
 
 export function HousingServices() {
@@ -27,7 +27,35 @@ export function HousingServices() {
       description: 'View and download land records',
       icon: <MapPin className="h-5 w-5" />,
       url: 'https://upbhulekh.gov.in/'
+    },
+    {
+      title: 'UP Ground Water Department',
+      description: 'Apply for groundwater-related services online',
+      icon: <Droplet className="h-5 w-5" />,
+      url: 'https://upgwdonline.in/'
+    },
+    {
+      title: 'Janhit Guarantee Act Portal',
+      description: 'Track and apply for public service guarantees in Uttar Pradesh',
+      icon: <CheckCircle className="h-5 w-5" />,
+      url: 'https://janhit.upda.in/default.aspx'
+    },
+    {
+      title: 'UP Horticulture Janhit Portal',
+      description: 'Access horticulture schemes and services in Uttar Pradesh',
+      icon: <Sprout className="h-5 w-5" />,
+      url: 'https://janhit.uphorticulture.in/'
+    },
+    {
+      title: 'UPPCL Portal',
+      description: 'Access electricity-related services in Uttar Pradesh',
+      icon: <Home className="h-5 w-5" />,
+      url: 'https://uppcl.org/uppcl/hi/'
     }
+    
+    
+    
+    
   ];
 
   return (

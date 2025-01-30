@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Stethoscope, Building2, Pill } from 'lucide-react';
+import { Heart, Stethoscope,  Pill, ShoppingCart } from 'lucide-react';
 import { ServiceLink } from '../components/ServiceLink';
 import { ServiceLayout } from '../components/ServiceLayout';
 
@@ -28,7 +28,21 @@ export function HealthcareServices() {
       description: 'Access affordable medicine schemes',
       icon: <Pill className="h-5 w-5" />,
       url: 'https://janaushadhi.gov.in/'
+    },
+    {
+      title: 'UP Food and Supply Department',
+      description: 'Access food distribution and supply services in Uttar Pradesh',
+      icon: <ShoppingCart className="h-5 w-5" />,
+      url: 'https://fsdaup.gov.in/'
+    },
+    {
+      title: 'UP Health Portal',
+      description: 'Access healthcare services and information in Uttar Pradesh',
+      icon: <Heart className="h-5 w-5" />,
+      url: 'https://up-health.in/en/'
     }
+    
+    
   ];
 
   return (

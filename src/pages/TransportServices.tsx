@@ -27,7 +27,21 @@ export function TransportServices() {
       description: 'Access UP state transport routes and schedules',
       icon: <Map className="h-5 w-5" />,
       url: 'https://upsrtc.up.gov.in/'
+    },
+    {
+      title: 'Sarathi Parivahan Portal',
+      description: 'Access driving license and vehicle registration services in India',
+      icon: <Car className="h-5 w-5" />,
+      url: 'https://sarathi.parivahan.gov.in/sarathiservice/stateSelection.do'
+    },
+    {
+      title: 'Vahan Parivahan Portal',
+      description: 'Access vehicle registration and related services in India',
+      icon: <Car className="h-5 w-5" />,
+      url: 'https://vahan.parivahan.gov.in/vahaneservice/'
     }
+    
+    
   ];
 
   return (

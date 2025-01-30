@@ -1,5 +1,5 @@
 import React from 'react';
-import { Landmark, Receipt, FileText, Calculator } from 'lucide-react';
+import { Landmark, Receipt, FileText,  Banknote } from 'lucide-react';
 import { ServiceLink } from '../components/ServiceLink';
 
 export function RevenueServices() {
@@ -8,7 +8,7 @@ export function RevenueServices() {
       title: 'Property Tax',
       description: 'Pay and view property tax details',
       icon: <Landmark className="h-5 w-5" />,
-      url: 'https://nagarnigam.up.nic.in/'
+      url: 'https://lmc.up.nic.in/internet/User_Loginnew.aspx'
     },
     {
       title: 'Water Tax',
@@ -22,12 +22,21 @@ export function RevenueServices() {
       icon: <FileText className="h-5 w-5" />,
       url: 'https://upbhulekh.gov.in/'
     },
-    // {
-    //   title: 'Tax Calculator',
-    //   description: 'Calculate various government taxes',
-    //   icon: <Calculator className="h-5 w-5" />,
-    //   url: 'https://tin.up.nic.in/'
-    // }
+    {
+      title: 'UP GST Portal',
+      description: 'Access GST services and information in Uttar Pradesh',
+      icon: <Banknote className="h-5 w-5" />,
+      url: 'https://comtax.up.nic.in/GSThome/en.html'
+    },
+    {
+      title: 'UP GST E-Forms Portal',
+      description: 'Access and submit GST-related forms in Uttar Pradesh',
+      icon: <FileText className="h-5 w-5" />,
+      url: 'https://up-gst.com/eforms/'
+    }
+    
+
+    
   ];
 
   return (

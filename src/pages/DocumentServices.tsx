@@ -8,7 +8,13 @@ export function DocumentServices() {
       title: 'Birth Certificate',
       description: 'Apply for a new birth certificate or get a duplicate copy',
       icon: <FileText className="h-5 w-5" />,
-      url: 'https://igrsup.gov.in/igrsup/defaultAction.action'
+      url: 'https://dc.crsorgi.gov.in/crs/'
+    },
+    {
+      title: 'Death Certificate',
+      description: 'Apply for Death certificate or get a duplicate copy',
+      icon: <FileText className="h-5 w-5" />,
+      url: 'https://dc.crsorgi.gov.in/crs/'
     },
     {
       title: 'Income Certificate',
